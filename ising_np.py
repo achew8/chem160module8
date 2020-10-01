@@ -44,7 +44,6 @@ while Temp<10.:
                 for j in range(n):
                     energy-=spins[i][j]*(neighbors(spins,i,j,zone).sum()
                                         -spins[i][j])
-
             energy/=n2
 
         # Update energy based on deltaE per spin
